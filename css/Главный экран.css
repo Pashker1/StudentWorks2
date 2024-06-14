@@ -182,31 +182,31 @@ a {
 @media (max-width: 768px) {
   /* Стили для экранов с шириной менее 768px */
   .vРегистрация, .vВход, .v©GradeWise {
-    font-size: 24px;
-  }
-  .vТелефон, .vПочта, .vОСайте, .vКонтакты {
     font-size: 20px;
   }
+  .vТелефон, .vПочта, .vОСайте, .vКонтакты {
+    font-size: 15px;
+  }
   .vЛого {
-    font-size: 60px;
+    font-size: 30px;
   }
   .vОценка {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 480px) {
   /* Стили для экранов с шириной менее 480px */
   .vРегистрация, .vВход, .v©GradeWise {
-    font-size: 18px;
+    font-size: 15px;
   }
   .vТелефон, .vПочта, .vОСайте, .vКонтакты {
-    font-size: 16px;
+    font-size: 12px;
   }
   .vЛого {
-    font-size: 40px;
+    font-size: 30px;
   }
   .vОценка {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
