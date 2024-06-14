@@ -177,3 +177,36 @@ a {
   margin: 0 auto; /*  Центрируем линию по горизонтали  */
   text-align: center;
 }
+/* Адаптивные стили */
+
+@media (max-width: 768px) {
+  /* Стили для экранов с шириной менее 768px */
+  .vРегистрация, .vВход, .v©GradeWise {
+    font-size: 24px;
+  }
+  .vТелефон, .vПочта, .vОСайте, .vКонтакты {
+    font-size: 20px;
+  }
+  .vЛого {
+    font-size: 60px;
+  }
+  .vОценка {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Стили для экранов с шириной менее 480px */
+  .vРегистрация, .vВход, .v©GradeWise {
+    font-size: 18px;
+  }
+  .vТелефон, .vПочта, .vОСайте, .vКонтакты {
+    font-size: 16px;
+  }
+  .vЛого {
+    font-size: 40px;
+  }
+  .vОценка {
+    font-size: 30px;
+  }
+}
