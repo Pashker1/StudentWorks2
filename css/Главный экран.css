@@ -182,10 +182,10 @@ a {
 @media (max-width: 768px) {
   /* Стили для экранов с шириной менее 768px */
   .vРегистрация, .vВход, .v©GradeWise {
-    font-size: 20px;
+    font-size: 22px;
   }
   .vТелефон, .vПочта, .vОСайте, .vКонтакты {
-    font-size: 15px;
+    font-size: 12px;
   }
   .vЛого {
     font-size: 30px;
@@ -198,10 +198,10 @@ a {
 @media (max-width: 480px) {
   /* Стили для экранов с шириной менее 480px */
   .vРегистрация, .vВход, .v©GradeWise {
-    font-size: 15px;
+    font-size: 17px;
   }
   .vТелефон, .vПочта, .vОСайте, .vКонтакты {
-    font-size: 12px;
+    font-size: 9px;
   }
   .vЛого {
     font-size: 30px;
