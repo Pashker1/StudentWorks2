@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 14px;
+}
+.vЭкран {
+  max-width: 100%;
+  height: 100%;
+  background: rgba(80,84,163,1);
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+.vФонДляГлавногоЭкрана {
+  width: 100%;
+  height: 965px;
+  background: url("../images/vФонДляГлавногоЭкрана.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.vПодвал {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  opacity: .5;
+  position: absolute;
+  top: 840px;
+  left: 0px;
+  overflow: hidden;
+}
+.vРегистрация {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 110px;
+  left: 1626px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.vВход {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 55px;
+  left: 1608px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+  padding: 0;
+}
+a {
+  overflow-x: hidden;
+  text-decoration: none;
+  color: white;
+} 
+.vТелефон {
+  width: 521px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 870px;
+  left: 42px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.vПочта {
+  width: 625px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 923px;
+  left: 42px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.vГруппаЛого {
+  width: 574px;
+  height: 137px;
+  background: url("../images/v47_14.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 23px;
+  opacity: 1;
+  position: absolute;
+  top: 250px;
+  left: 665px;
+  overflow: hidden;
+}
+.vЛого {
+  width: 600px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+.vОценка {
+  width: 100%;
+  letter-spacing: .2rem;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 476px;
+  left: 380px;
+  font-family: Times New Roman;
+  font-weight: Bold;
+  font-size: 70px;
+  opacity: 1;
+  text-align: left;
+}
+.v©GradeWise {
+  width: 295px;
+  color: rgba(160,160,160,1);
+  position: absolute;
+  top: 923px;
+  left: 1550px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.vОСайте {
+  width: 138px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 870px;
+  left: 919px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.vКонтакты {
+  width: 160px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 923px;
+  left: 919px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.hr-line {
+  border-top: 4px solid #ffffff;
+}

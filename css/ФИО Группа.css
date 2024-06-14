@@ -1,0 +1,474 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 14px;
+}
+.v20_104 {
+  width: 100%;
+  height: 965px;
+  background: rgba(80,84,163,1);
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+.v48_27 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/v47_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v20_107 {
+  width: 642px;
+  height: 670px;
+  background: rgba(240,240,240,1);
+  opacity: 1;
+  position: absolute;
+  top: 150px;
+  left: 657px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+.v2164_174 {
+  width: 81px;
+  height: 37px;
+  background: rgba(153,60,60,1);
+  opacity: 1;
+  position: absolute;
+  top: 765px;
+  left: 674px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  overflow: hidden;
+}
+.v2068_342 {
+  width: 54px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 770px;
+  left: 687px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v2068_337 {
+  width: 611px;
+  height: 55px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 448px;
+  left: 672px;
+  overflow: hidden;
+}
+.v2068_336 {
+  width: 611px;
+  height: 55px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 517px;
+  left: 672px;
+  overflow: hidden;
+}
+.v2068_335 {
+  width: 611px;
+  height: 55px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 374px;
+  left: 672px;
+  overflow: hidden;
+}
+.vВведитеМестоРаботы {
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 596px;
+  left: 800px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v2068_338 {
+  width: 611px;
+  height: 55px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 671px;
+  left: 672px;
+  overflow: hidden;
+}
+.v20_120 {
+  width: 81px;
+  color: rgba(72,108,105,1);
+  position: absolute;
+  top: 684px;
+  left: 694px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v20_108 {
+  width: 337px;
+  color: rgba(127,36,36,1);
+  position: absolute;
+  top: 201px;
+  left: 810px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.v20_109 {
+  width: 199px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 300px;
+  left: 879px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v20_114 {
+  width: 105px;
+  color: rgba(72,107,105,1);
+  position: absolute;
+  top: 387px;
+  left: 674px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v20_115 {
+  width: 51px;
+  color: rgba(72,107,105,1);
+  position: absolute;
+  top: 459px;
+  left: 728px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v20_116 {
+  width: 106px;
+  color: rgba(72,107,105,1);
+  position: absolute;
+  top: 528px;
+  left: 673px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v2164_173 {
+  width: 86px;
+  height: 39px;
+  background: rgba(153,60,60,1);
+  opacity: 1;
+  position: absolute;
+  top: 770px;
+  left: 933px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  overflow: hidden;
+}
+.v20_117 {
+  width: 65px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 773px;
+  left: 946px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v2135_187 {
+  width: 100%;
+  height: 148px;
+  background: rgba(78,42,42,0.718999981880188);
+  opacity: .8;
+  position: absolute;
+  top: 840px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2135_186 {
+  width: 100%;
+  height: 106px;
+  background: url("../images/v2135_186.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 870px;
+  left: 42px;
+  overflow: hidden;
+}
+.v2135_188 {
+  width: 521px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v2135_189 {
+  width: 625px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 53px;
+  left: 0px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v2135_190 {
+  width: 138px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 877px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v2135_191 {
+  width: 160px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 53px;
+  left: 877px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v2135_192 {
+  width: 295px;
+  color: rgba(212,212,212,1);
+  position: absolute;
+  top: 53px;
+  left: 1508px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.v2164_187 {
+  width: 91px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 387px;
+  left: 785px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.vФамилия {
+  width: 91px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 387px;
+  left: 777px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v2164_188 {
+  width: 61px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 458px;
+  left: 785px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v2164_189 {
+  width: 101px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 527px;
+  left: 785px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.vИС-111 {
+  width: 79px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 715px;
+  left: 785px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.vМесто {
+  width: 600px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 688px;
+  left: 725px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 19px;
+  opacity: 1;
+  text-align: center;
+}
+.v48_34 {
+  width: 452px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 18px;
+  left: 84px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 80px;
+  opacity: 1;
+  text-align: left;
+}
+a {
+  overflow-x: hidden;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.vВведитеМестоУчебы {
+  width: 550px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 586px;
+  left: 710px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.vКвадрат {
+  width: 642px;
+  height: 680px;
+  background: rgba(240,240,240,1);
+  opacity: 1;
+  position: absolute;
+  top: 150px;
+  left: 657px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+.vГруппа {
+  width: 81px;
+  color: rgba(72,108,105,1);
+  position: absolute;
+  top: 714px;
+  left: 694px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.vПолеГруппы {
+  width: 611px;
+  height: 55px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 701px;
+  left: 672px;
+  overflow: hidden;
+}
+.vПолеМестаУчебы {
+  width: 611px;
+  height: 55px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 640px;
+  left: 672px;
+  overflow: hidden;
+}
+.vМестоУчебы {
+  width: 81px;
+  color: rgba(72,108,105,1);
+  position: absolute;
+  top: 650px;
+  left: 694px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.vКолледж {
+  width: 600px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 655px;
+  left: 725px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 19px;
+  opacity: 1;
+  text-align: center;
+}

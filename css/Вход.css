@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 14px;
+}
+.vЭкран {
+  width: 100%;
+  height: 965px;
+  background: rgba(80,84,163,1);
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+.vФон {
+  width: 100%;
+  height: 100%;
+  background: url("../images/v47_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.vПодвал {
+  width: 100%;
+  height: 148px;
+  background: rgba(78,42,42,0.718999981880188);
+  opacity: .8;
+  position: absolute;
+  top: 840px;
+  left: 0px;
+}
+.vГруппаПодвал {
+  width: 100%;
+  height: 106px;
+  background: url("../images/v2067_159.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 870px;
+  left: 42px;
+  overflow: hidden;
+}
+.vТелефон {
+  width: 521px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v2067_162 {
+  width: 625px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 53px;
+  left: 0px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v2067_164 {
+  width: 138px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 877px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v2067_165 {
+  width: 160px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 53px;
+  left: 877px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.vgradewise2 {
+  width: 295px;
+  color: rgba(212,212,212,1);
+  position: absolute;
+  top: 53px;
+  left: 1508px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.vКвадрат {
+  width: 642px;
+  height: 476px;
+  background: rgba(241,241,241,1);
+  opacity: 1;
+  position: absolute;
+  top: 230px;
+  left: 640px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.v8_98 {
+  width: 337px;
+  color: rgba(127,36,36,1);
+  position: absolute;
+  top: 259px;
+  left: 792px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.vПолеЛогин {
+  width: 611px;
+  height: 55px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 370px;
+  left: 653px;
+}
+.vЛогин1 {
+  width: 59px;
+  color: rgba(72,108,105,1);
+  position: absolute;
+  top: 385px;
+  left: 667px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v2047_182 {
+  width: 611px;
+  height: 55px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 478px;
+  left: 653px;
+  overflow: hidden;
+}
+.v2164_186 {
+  width: 151px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 490px;
+  left: 730px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v8_100 {
+  width: 76px;
+  color: rgba(72,108,105,1);
+  position: absolute;
+  top: 490px;
+  left: 654px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.vКвадратВход {
+  width: 111px;
+  height: 46px;
+  background: rgba(153,60,60,1);
+  opacity: 1;
+  position: absolute;
+  top: 580px;
+  left: 903px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+}
+.v2164_163 {
+  width: 169px;
+  height: 46px;
+  background: rgba(153,60,60,1);
+  opacity: 1;
+  position: absolute;
+  top: 650px;
+  left: 874px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  overflow: hidden;
+}
+.v2164_164 {
+  width: 83px;
+  height: 46px;
+  background: rgba(153,60,60,1);
+  opacity: 1;
+  position: absolute;
+  top: 640px;
+  left: 651px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  overflow: hidden;
+}
+.v8_103 {
+  width: 144px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 660px;
+  left: 886px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v11_135 {
+  width: 73px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 583px;
+  left: 922px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v11_138 {
+  width: 54px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 650px;
+  left: 665px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v2047_180 {
+  width: 431px;
+  height: 137px;
+  background: url("../images/v2047_180.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 94px;
+}
+.vЛого {
+  width: 431px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: -10px;
+  left: -10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 80px;
+  opacity: 1;
+  text-align: left;
+}
+.v2164_185 {
+  width: 160px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 385px;
+  left: 726px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+a {
+  overflow-x: hidden;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
