@@ -316,6 +316,15 @@ a {
   .vПодвал {
   padding: 10px;
   }
+  .vЛого{
+  font-size: 20px;
+  }
+  .vКонтакты2{
+  font-size: 10px;
+  }
+  .vОСайте2{
+  font-size: 10px;
+  }
 }
 @media (max-width: 480px) {
   .v©GradeWise {
