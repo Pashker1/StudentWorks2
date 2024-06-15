@@ -191,10 +191,10 @@ a {
     right: 20px; /*  Сдвигаем элемент ближе к краю  */
   }
   .vЛого {
-    font-size: 60px;
+    font-size: 45px;
   }
   .vОценка {
-    font-size: 40px;
+    font-size: 30px;
   }
   .vОСайте {
     font-size: 13px; /*  Уменьшаем размер шрифта  */
