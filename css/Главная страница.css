@@ -340,7 +340,8 @@ a {
   top: 30px;
   }
   .vШапкаЛиния {
-    hight: 60px;}
+    height: 60px;
+  }
 }
 @media (max-width: 480px) {
   .v©GradeWise {
