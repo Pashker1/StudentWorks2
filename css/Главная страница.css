@@ -323,10 +323,12 @@ a {
   .vКонтакты2{
   font-size: 20px;
   right: 10px;
+  top: 18px;
   }
   .vОСайте2{
   font-size: 20px;
-  right: 50px;
+  right: 250px;
+  top: 18px;
   }
 @media (max-width: 480px) {
   .v©GradeWise {
