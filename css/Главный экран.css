@@ -47,11 +47,11 @@ body {
   width: 100%;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 110px;
+  top: 90px;
   right: 93px;
   font-family: Times New Roman;
   font-weight: Regular;
-  font-size: 36px;
+  font-size: 32px;
   opacity: 1;
   text-align: right;
 }
@@ -59,11 +59,11 @@ body {
   width: 100%;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 55px;
+  top: 40px;
   right: 75px;
   font-family: Times New Roman;
   font-weight: Regular;
-  font-size: 36px;
+  font-size: 32px;
   opacity: 1;
   text-align: right;
   padding: 0;
