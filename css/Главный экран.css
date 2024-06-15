@@ -186,24 +186,6 @@ a {
 /* Адаптивные стили */
 
 @media (max-width: 768px) {
-  /* Стили для экранов с шириной менее 768px */
-  .vРегистрация, .vВход {
-    font-size: 22px;
-  }
-  .vТелефон, .vПочта, .vОСайте, .vКонтакты, .v©GradeWise {
-    font-size: 12px;
-  }
-  .vЛого {
-    font-size: 30px;
-  }
-  .vОценка {
-    font-size: 30px;
-  }
-    .vПодвал {
-    height: auto; 
-  }
-}
-@media (max-width: 768px) {
   .v©GradeWise {
     font-size: 17px; /*  Уменьшаем размер шрифта  */
     right: 20px; /*  Сдвигаем элемент ближе к краю  */
