@@ -346,9 +346,8 @@ a {
   width: 150px; /* Изменяем ширину для мобильных устройств */
   height: 120px;
   background: #4e2a2ab7;
-  opacity: .8;}
-  .vНавигация {
-  top: 70px;
+  opacity: .8;
+  top: -20px;
 }
 }
 @media (max-width: 480px) {
