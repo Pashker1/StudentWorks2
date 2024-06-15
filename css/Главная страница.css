@@ -342,6 +342,11 @@ a {
   .vШапкаЛиния {
     height: 60px;
   }
+  .vНавигацияЛиния {
+  width: 150px; /* Изменяем ширину для мобильных устройств */
+  height: 120px;
+  background: #4e2a2ab7;
+  opacity: .8;}
 }
 @media (max-width: 480px) {
   .v©GradeWise {
