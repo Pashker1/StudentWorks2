@@ -1,0 +1,403 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 14px;
+}
+.vЭкран {
+  max-width: 100%;
+  height: 100vh;
+  background: rgba(80,84,163,1);
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+.vФон {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/v2004_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.vПодвал {
+  width: 100%;
+  background: rgb(78,42,42,0.718999981880188);
+  opacity: .8;
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 63px;
+}
+.vПодвал-content {
+  /*  Стили для содержимого подвала  */
+color: white;
+text-align: center;
+}
+.vКонтакты1 {
+  width: auto;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  bottom: 11px;
+  left: 51.1%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.vОСайте1 {
+  width: auto;
+  color:rgba(255, 255, 255, 1);
+  position: absolute;
+  bottom: 64px; 
+  left: 50.5%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.vТелефон {
+  width: auto;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 64px;
+  left: 42px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.vПочта {
+  width: auto;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 11px;
+  left: 42px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v©GradeWise {
+  width: auto;
+  color: rgba(160,160,160,1);
+  position: absolute;
+  bottom: 1px;
+  right: 75px;
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: right;
+}
+.vШапка {
+  width: 100%;
+  height: 120px;
+  background: url("../images/v49_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative; /* Изменяем позиционирование на относительное */
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.vШапкаЛиния {
+  width: 100%;
+  height: 142px;
+  background: rgba(78, 42, 42, 0.719);
+  opacity: .8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.vКонтакты2 {
+  width: auto;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 38px;
+  right: 80.5px;
+  font-family: TharLon;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: right;
+}
+
+.vЛого {
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 18px;
+  left: 84px; /* Изменяем позицию для мобильных устройств */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Times New Roman;
+  font-weight: Regular;
+  font-size: 80px; /* Изменяем размер шрифта для мобильных устройств */
+  opacity: 1;
+  text-align: left;
+}
+
+.vОСайте2 {
+  width: auto;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 38px;
+  right: 268.5px;
+  font-family: TharLon;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: right;
+}
+
+.vНавигация {
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  height: 189px;
+  background: url("../images/v2075_178.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+}
+
+.vНавигацияЛиния {
+  width: 250px; /* Изменяем ширину для мобильных устройств */
+  height: 189px;
+  background: #4e2a2ab7;
+  opacity: .8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.vНавигацияСлова {
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  height: 136px;
+  background: url("../images/v2075_180.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 10px; /* Изменяем отступы для мобильных устройств */
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 0px;}
+
+.vЛичныйКабинет {
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  font-family: TharLon;
+  font-weight: Regular;
+  font-size: 28px; /* Изменяем размер шрифта для мобильных устройств */
+  opacity: 1;
+  text-align: left;
+}
+
+.vНоваяРабота {
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 67px;
+  left: 33px; /* Изменяем позицию для мобильных устройств */
+  font-family: TharLon;
+  font-weight: Regular;
+  font-size: 28px; /* Изменяем размер шрифта для мобильных устройств */
+  opacity: 1;
+  text-align: left;
+}
+
+.vПроверкаРабот {
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 67px;
+  left: 19px; /* Изменяем позицию для мобильных устройств */
+  font-family: TharLon;
+  font-weight: Regular;
+  font-size: 28px; /* Изменяем размер шрифта для мобильных устройств */
+  opacity: 1;
+  text-align: left;
+}
+
+.vВыйти {
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 124px;
+  left: 75px; /* Изменяем позицию для мобильных устройств */
+  font-family: TharLon;
+  font-weight: Regular;
+  font-size: 26px;
+  opacity: 1;
+  text-align:left;
+}
+.v2075_185 {
+  width: 250px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 56px;
+  left: 10px;
+  font-family: TharLon;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.v2075_255 {
+  width: 11px;
+  height: 20px;
+  background: url("../images/v2075_255.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 190px;
+  left: 220px;
+}
+.v2075_256 {
+  width: 11px;
+  height: 17px;
+  background: rgb(136, 136, 136);
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  border-radius: 50%;
+}
+.v2075_257 {
+  width: 9px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  font-family: TharLon;
+  font-weight: Regular;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+a {
+  overflow-x: hidden;
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 768px) {
+  .v©GradeWise {
+    font-size: 11px; /*   размер шрифта  */
+    right: 20px; /*   элемент ближе к краю  */
+  }
+  .vОСайте1 {
+    font-size: 11px;
+     bottom: 0px;/*  Уменьшаем размер шрифта  */
+  }
+
+  .vКонтакты1 {
+    font-size: 11px; /*   размер шрифта  */
+  }
+  .vТелефон {
+    font-size: 10px; /*   размер шрифта  */
+    left: 17px;
+    bottom: 0px;
+  }
+  .vПочта {
+    font-size: 10px; /*   размер шрифта  */
+    left: 17px;/*   элемент вниз  */
+  }
+  .vПодвал {
+    padding: 10px;
+  }
+  .vЛого{
+    font-size: 30px;
+    left: 20px;
+  }
+  .vКонтакты2{
+    font-size: 20px;
+    right: 10px;
+    top: 25px;
+  }
+  .vОСайте2{
+    font-size: 20px;
+    right: 110;
+    top: 25px;
+  }
+  .vШапкаЛиния {
+    height: 60px;
+  }
+  .vНавигацияЛиния {
+    width: 150px; /* Изменяем ширину для мобильных устройств */
+    height: 120px;
+    background: #4e2a2ab7;
+    opacity: .8;
+    top: -60px;
+  }
+  .vЛичныйКабинет {
+    top: -71px;
+    left: -1-px;
+    font-size: 15px; /* Изменяем размер шрифта для мобильных устройств */}
+  .vНоваяРабота {
+    top: -27;
+    left: 13px; /* Изменяем позицию для мобильных устройств */
+    font-size: 15px; /* Изменяем размер шрифта для мобильных устройств */
+    }
+  .vПроверкаРабот {
+    top: -27px;
+    left: 0px; /* Изменяем позицию для мобильных устройств */
+    font-size: 15px; /* Изменяем размер шрифта для мобильных устройств */
+    }
+  .vВыйти {
+    top: 54px;
+    left: 55px; /* Изменяем позицию для мобильных устройств */
+    font-size: 15px;
+    }
+  .v2075_255 {
+    left: 50px;
+    }
+    }
+@media (max-width: 480px) {
+  .v©GradeWise {
+    font-size: 7px; /*   размер шрифта  */
+    right: 20px; /*  элемент ближе к краю  */
+  }
+  .vОСайте1 {
+    font-size: 8px;
+     bottom: 0px;/*  размер шрифта  */
+  }
+  .vКонтакты1 {
+    font-size: 8px; /*  Уразмер шрифта  */
+  }
+  .vТелефон {
+    font-size: 7px; /*   размер шрифта  */
+    left: 20px;
+    bottom: 0px;
+  }
+  .vПочта {
+    font-size: 7px; /* размер шрифта  */
+    left: 20px;/*  элемент вниз  */
+  }
+  .vПодвал {
+  padding: 10px;
+  }
+  }
