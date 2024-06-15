@@ -74,7 +74,7 @@ a {
   color: white;
 } 
 .vТелефон {
-  width: 100%;
+  width: auto;
   color: rgba(255,255,255,1);
   position: absolute;
   bottom: 60px;
@@ -86,7 +86,7 @@ a {
   text-align: left;
 }
 .vПочта {
-  width: 100%;
+  width: auto;
   color: rgba(255,255,255,1);
   position: absolute;
   bottom: 10px;
@@ -152,7 +152,7 @@ a {
   text-align: right;
 }
 .vОСайте {
-  width: 100%;
+  width: auto;
   color:rgba(255, 255, 255, 1);
   position: absolute;
   bottom: 60px; 
@@ -187,7 +187,7 @@ a {
 
 @media (max-width: 768px) {
   .v©GradeWise {
-    font-size: 13px; /*  Уменьшаем размер шрифта  */
+    font-size: 11px; /*  Уменьшаем размер шрифта  */
     right: 20px; /*  Сдвигаем элемент ближе к краю  */
   }
   .vЛого {
@@ -197,21 +197,21 @@ a {
     font-size: 30px;
   }
   .vОСайте {
-    font-size: 10px; /*  Уменьшаем размер шрифта  */
+    font-size: 8px; /*  Уменьшаем размер шрифта  */
   }
 
   .vКонтакты {
-    font-size: 10px; /*  Уменьшаем размер шрифта  */
+    font-size: 8px; /*  Уменьшаем размер шрифта  */
     bottom: 50px; /*  Сдвигаем элемент вниз  */
   }
 
   .vТелефон {
-    font-size: 10px; /*  Уменьшаем размер шрифта  */
+    font-size: 7px; /*  Уменьшаем размер шрифта  */
     left: 20px;/*  Сдвигаем элемент вниз  */
   }
 
   .vПочта {
-    font-size: 10px; /*  Уменьшаем размер шрифта  */
+    font-size: 7px; /*  Уменьшаем размер шрифта  */
     left: 20px;/*  Сдвигаем элемент вниз  */
   }
 .vПодвал {
