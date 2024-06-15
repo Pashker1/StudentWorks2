@@ -222,9 +222,11 @@ a {
   }
   .vРегистрация {
   font-size: 25px;
+  right: 20px;
   }
 .vВход {
   font-size: 25px;
+  right: 20px;
 }
 }
 @media (max-width: 488px) {
@@ -264,9 +266,11 @@ a {
   }
   .vРегистрация {
   font-size: 15px;
+  right: 20px;
   }
 .vВход {
   font-size: 15px;
+  right: 20px;
 }
 }
 
