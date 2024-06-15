@@ -306,24 +306,24 @@ a {
 }
 @media (max-width: 768px) {
   .v©GradeWise {
-    font-size: 11px; /*   размер шрифта  */
+    font-size: 9px; /*   размер шрифта  */
     right: 20px; /*   элемент ближе к краю  */
   }
   .vОСайте1 {
-    font-size: 11px;
+    font-size: 9px;
      bottom: 0px;/*  Уменьшаем размер шрифта  */
   }
 
   .vКонтакты1 {
-    font-size: 11px; /*   размер шрифта  */
+    font-size: 9px; /*   размер шрифта  */
   }
   .vТелефон {
-    font-size: 10px; /*   размер шрифта  */
+    font-size: 8px; /*   размер шрифта  */
     left: 17px;
     bottom: 0px;
   }
   .vПочта {
-    font-size: 10px; /*   размер шрифта  */
+    font-size: 8px; /*   размер шрифта  */
     left: 17px;/*   элемент вниз  */
   }
   .vПодвал {
@@ -378,23 +378,23 @@ a {
     }
 @media (max-width: 480px) {
   .v©GradeWise {
-    font-size: 7px; /*   размер шрифта  */
+    font-size: 5px; /*   размер шрифта  */
     right: 20px; /*  элемент ближе к краю  */
   }
   .vОСайте1 {
-    font-size: 8px;
+    font-size: 6px;
      bottom: 0px;/*  размер шрифта  */
   }
   .vКонтакты1 {
-    font-size: 8px; /*  Уразмер шрифта  */
+    font-size: 6px; /*  Уразмер шрифта  */
   }
   .vТелефон {
-    font-size: 7px; /*   размер шрифта  */
+    font-size: 5px; /*   размер шрифта  */
     left: 20px;
     bottom: 0px;
   }
   .vПочта {
-    font-size: 7px; /* размер шрифта  */
+    font-size: 5px; /* размер шрифта  */
     left: 20px;/*  элемент вниз  */
   }
   .vПодвал {
