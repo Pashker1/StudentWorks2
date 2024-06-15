@@ -35,7 +35,7 @@ body {
   bottom: 0;
   left: 0;
   overflow: hidden;
-  padding: 60px; /*  отступ для содержимого  */
+  padding: 63px; /*  отступ для содержимого  */
 }
   
 .vПодвал-content {
@@ -77,8 +77,8 @@ a {
   width: auto;
   color: rgba(255,255,255,1);
   position: absolute;
-  bottom: 60px;
-  left: 40px;
+  bottom: 64px;
+  left: 42px;
   font-family: Times New Roman;
   font-weight: Regular;
   font-size: 28px;
@@ -89,8 +89,8 @@ a {
   width: auto;
   color: rgba(255,255,255,1);
   position: absolute;
-  bottom: 10px;
-  left: 40px;
+  bottom: 11px;
+  left: 42px;
   font-family: Times New Roman;
   font-weight: Regular;
   font-size: 28px;
@@ -143,8 +143,8 @@ a {
   width: auto;
   color: rgba(160,160,160,1);
   position: absolute;
-  bottom: 10px;
-  right: 40px;
+  bottom: 1px;
+  right: 75px;
   font-family: Times New Roman;
   font-weight: Regular;
   font-size: 36px;
@@ -155,8 +155,8 @@ a {
   width: auto;
   color:rgba(255, 255, 255, 1);
   position: absolute;
-  bottom: 60px; 
-  left: 50%;
+  bottom: 64px; 
+  left: 50.5%;
   transform: translateX(-50%);
   font-size: 28px;
   opacity: 1;
@@ -166,8 +166,8 @@ a {
   width: auto;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  bottom: 10px;
-  left: 50.2%;
+  bottom: 11px;
+  left: 51.1%;
   transform: translateX(-50%);
   font-size: 28px;
   opacity: 1;
@@ -175,7 +175,7 @@ a {
 }
 .hr-line {
   border-top: 4px solid #ffffff;
-  width: 30%; /*  Изменили ширину на 50%  */
+  width: 30%; /*   ширина на 30%  */
   position: absolute;
   bottom: 150px;
   top: 65%;
@@ -187,8 +187,8 @@ a {
 
 @media (max-width: 768px) {
   .v©GradeWise {
-    font-size: 11px; /*  Уменьшаем размер шрифта  */
-    right: 20px; /*  Сдвигаем элемент ближе к краю  */
+    font-size: 11px; /*   размер шрифта  */
+    right: 20px; /*   элемент ближе к краю  */
   }
   .vЛого {
     font-size: 45px;
@@ -202,19 +202,16 @@ a {
   }
 
   .vКонтакты {
-    font-size: 11px; /*  Уменьшаем размер шрифта  */
-    /*  Сдвигаем элемент вниз  */
+    font-size: 11px; /*   размер шрифта  */
   }
-
   .vТелефон {
-    font-size: 10px; /*  Уменьшаем размер шрифта  */
+    font-size: 10px; /*   размер шрифта  */
     left: 20px;
     bottom: 0px;
   }
-
   .vПочта {
-    font-size: 10px; /*  Уменьшаем размер шрифта  */
-    left: 20px;/*  Сдвигаем элемент вниз  */
+    font-size: 10px; /*   размер шрифта  */
+    left: 20px;/*   элемент вниз  */
   }
   .vПодвал {
   padding: 10px;
@@ -230,8 +227,8 @@ a {
 }
 @media (max-width: 480px) {
   .v©GradeWise {
-    font-size: 7px; /*  Уменьшаем размер шрифта  */
-    right: 20px; /*  Сдвигаем элемент ближе к краю  */
+    font-size: 7px; /*   размер шрифта  */
+    right: 20px; /*  элемент ближе к краю  */
   }
   .vЛого {
     font-size: 35px;
@@ -241,23 +238,19 @@ a {
   }
   .vОСайте {
     font-size: 8px;
-     bottom: 0px;/*  Уменьшаем размер шрифта  */
+     bottom: 0px;/*  размер шрифта  */
   }
-
   .vКонтакты {
-    font-size: 8px; /*  Уменьшаем размер шрифта  */
-    /*  Сдвигаем элемент вниз  */
+    font-size: 8px; /*  Уразмер шрифта  */
   }
-
   .vТелефон {
-    font-size: 7px; /*  Уменьшаем размер шрифта  */
+    font-size: 7px; /*   размер шрифта  */
     left: 20px;
     bottom: 0px;
   }
-
   .vПочта {
-    font-size: 7px; /*  Уменьшаем размер шрифта  */
-    left: 20px;/*  Сдвигаем элемент вниз  */
+    font-size: 7px; /* размер шрифта  */
+    left: 20px;/*  элемент вниз  */
   }
   .vПодвал {
   padding: 10px;
@@ -271,4 +264,3 @@ a {
   right: 20px;
 }
 }
-
