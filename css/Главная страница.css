@@ -316,14 +316,6 @@ a {
   .vПодвал {
   padding: 10px;
   }
-  .vРегистрация {
-  font-size: 25px;
-  right: 20px;
-  }
-.vВход {
-  font-size: 25px;
-  right: 20px;
-}
 }
 @media (max-width: 480px) {
   .v©GradeWise {
@@ -349,12 +341,4 @@ a {
   .vПодвал {
   padding: 10px;
   }
-  .vРегистрация {
-  font-size: 15px;
-  right: 20px;
-  }
-.vВход {
-  font-size: 15px;
-  right: 20px;
-}
 }
