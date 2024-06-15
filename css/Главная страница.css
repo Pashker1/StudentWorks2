@@ -103,11 +103,12 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
+  position: relative; /* Изменяем позиционирование на относительное */
   top: 0px;
   left: 0px;
   overflow: hidden;
 }
+
 .vШапкаЛиния {
   width: 100%;
   height: 142px;
@@ -118,6 +119,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
+
 .vКонтакты2 {
   width: auto;
   color: rgba(255,255,255,1);
@@ -130,6 +132,7 @@ body {
   opacity: 1;
   text-align: right;
 }
+
 .vЛого {
   width: 100%; /* Изменяем ширину для мобильных устройств */
   color: rgba(255, 255, 255, 1);
@@ -143,6 +146,7 @@ body {
   opacity: 1;
   text-align: left;
 }
+
 .vОСайте2 {
   width: auto;
   color: rgba(255,255,255,1);
@@ -155,8 +159,9 @@ body {
   opacity: 1;
   text-align: right;
 }
+
 .vНавигация {
-  width: 250px;
+  width: 100%; /* Изменяем ширину для мобильных устройств */
   height: 189px;
   background: url("../images/v2075_178.png");
   background-repeat: no-repeat;
@@ -168,8 +173,9 @@ body {
   left: 0px;
   overflow: hidden;
 }
+
 .vНавигацияЛиния {
-  width: 250px;
+  width: 250px; /* Изменяем ширину для мобильных устройств */
   height: 189px;
   background: #4e2a2ab7;
   opacity: .8;
@@ -178,72 +184,70 @@ body {
   left: 0px;
   overflow: hidden;
 }
+
 .vНавигацияСлова {
-  width: 242px;
+  width: 100%; /* Изменяем ширину для мобильных устройств */
   height: 136px;
   background: url("../images/v2075_180.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin: 21px;
+  margin: 10px; /* Изменяем отступы для мобильных устройств */
   opacity: 1;
   position: absolute;
   top: 5px;
-  left: 0px;
-  overflow: hidden;
-}
+  left: 0px;}
+
 .vЛичныйКабинет {
-  width: 242px;
-  color: rgba(255,255,255,1);
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 11px;
+  left: 11px;
   font-family: TharLon;
   font-weight: Regular;
-  font-size: 28px;
+  font-size: 28px; /* Изменяем размер шрифта для мобильных устройств */
   opacity: 1;
   text-align: left;
 }
+
 .vНоваяРабота {
-  width: 198px;
-  color: rgba(255,255,255,1);
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 56px;
-  left: 22px;
+  top: 67px;
+  left: 33px; /* Изменяем позицию для мобильных устройств */
   font-family: TharLon;
   font-weight: Regular;
-  font-size: 28px;
+  font-size: 28px; /* Изменяем размер шрифта для мобильных устройств */
   opacity: 1;
   text-align: left;
 }
-a {
-  overflow-x: hidden;
-  text-decoration: none;
-  color: white;
-}
+
 .vПроверкаРабот {
-  width: 250px;
-  color: rgba(255,255,255,1);
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 56px;
-  left: 8px;
+  top: 67px;
+  left: 19px; /* Изменяем позицию для мобильных устройств */
   font-family: TharLon;
   font-weight: Regular;
-  font-size: 28px;
+  font-size: 28px; /* Изменяем размер шрифта для мобильных устройств */
   opacity: 1;
   text-align: left;
 }
+
 .vВыйти {
-  width: 95px;
-  color: rgba(255,255,255,1);
+  width: 100%; /* Изменяем ширину для мобильных устройств */
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 113px;
-  left: 64px;
+  top: 124px;
+  left: 75px; /* Изменяем позицию для мобильных устройств */
   font-family: TharLon;
   font-weight: Regular;
   font-size: 26px;
   opacity: 1;
-  text-align: left;
+  text-align:left;
 }
 .v2075_185 {
   width: 250px;
@@ -291,6 +295,11 @@ a {
   opacity: 1;
   text-align: left;
 }
+a {
+  overflow-x: hidden;
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 768px) {
   .v©GradeWise {
     font-size: 11px; /*   размер шрифта  */
@@ -330,6 +339,7 @@ a {
   right: 150px;
   top: 18px;
   }
+}
 @media (max-width: 480px) {
   .v©GradeWise {
     font-size: 7px; /*   размер шрифта  */
