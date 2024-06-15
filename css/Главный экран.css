@@ -86,7 +86,7 @@ a {
   text-align: left;
 }
 .vПочта {
-  width: auto;
+  width: 100%;
   color: rgba(255,255,255,1);
   position: absolute;
   bottom: 10px;
