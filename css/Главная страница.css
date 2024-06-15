@@ -6,17 +6,17 @@
 body {
   font-size: 14px;
 }
-.v19_17 {
-  width: 100%;
-  height: 965px;
+.vЭкран {
+  max-width: 100%;
+  height: 100vh;
   background: rgba(80,84,163,1);
   opacity: 1;
   position: relative;
   overflow: hidden;
 }
-.v2004_2 {
+.vФон {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: url("../images/v2004_2.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -27,90 +27,75 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v2068_292 {
+.vПодвал {
   width: 100%;
-  height: 148px;
-  background: rgba(78, 42, 42, 0.719);
+  background: rgb(78,42,42,0.718999981880188);
   opacity: .8;
-  position: absolute;
-  top: 840px;
-  left: 0px;
+  position: fixed; 
+  bottom: 0;
+  left: 0;
   overflow: hidden;
+  padding: 63px;
 }
-.v2068_291 {
-  width: 100%;
-  height: 106px;
-  background: url("../images/v2068_291.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
+.vКонтакты1 {
+  width: auto;
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 870px;
+  bottom: 11px;
+  left: 51.1%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.vОСайте1 {
+  width: auto;
+  color:rgba(255, 255, 255, 1);
+  position: absolute;
+  bottom: 64px; 
+  left: 50.5%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.vТелефон {
+  width: auto;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  bottom: 64px;
   left: 42px;
-  overflow: hidden;
-}
-.v2068_293 {
-  width: 521px;
-  color: rgba(255,251,251,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
   font-family: Times New Roman;
   font-weight: Regular;
   font-size: 28px;
   opacity: 1;
   text-align: left;
 }
-.v2068_294 {
-  width: 625px;
-  color: rgba(255,251,251,1);
+.vПочта {
+  width: auto;
+  color: rgba(255,255,255,1);
   position: absolute;
-  top: 53px;
-  left: 0px;
+  bottom: 11px;
+  left: 42px;
   font-family: Times New Roman;
   font-weight: Regular;
   font-size: 28px;
   opacity: 1;
   text-align: left;
 }
-.v2068_296 {
-  width: 138px;
-  color: rgba(255,251,251,1);
+.v©GradeWise {
+  width: auto;
+  color: rgba(160,160,160,1);
   position: absolute;
-  top: 0px;
-  left: 877px;
-  font-family: Times New Roman;
-  font-weight: Regular;
-  font-size: 28px;
-  opacity: 1;
-  text-align: left;
-}
-.v2068_297 {
-  width: 160px;
-  color: rgba(255,251,251,1);
-  position: absolute;
-  top: 53px;
-  left: 877px;
-  font-family: Times New Roman;
-  font-weight: Regular;
-  font-size: 28px;
-  opacity: 1;
-  text-align: left;
-}
-.vgradewise2 {
-  width: 295px;
-  color: rgba(212,212,212,1);
-  position: absolute;
-  top: 53px;
-  left: 1508px;
+  bottom: 1px;
+  right: 75px;
   font-family: Times New Roman;
   font-weight: Regular;
   font-size: 36px;
   opacity: 1;
-  text-align: left;
+  text-align: right;
 }
-.v49_4 {
+.vШапка {
   width: 100%;
   height: 120px;
   background: url("../images/v49_4.png");
@@ -123,7 +108,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v49_5 {
+.vШапкаЛиния {
   width: 100%;
   height: 142px;
   background: rgba(78, 42, 42, 0.719);
@@ -133,17 +118,17 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.vКонтакты {
-  width: 173px;
+.vКонтакты2 {
+  width: auto;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 40px;
-  left: 1683px;
+  bottom: 38px;
+  right: 80.5px;
   font-family: TharLon;
   font-weight: Regular;
   font-size: 36px;
   opacity: 1;
-  text-align: left;
+  text-align: right;
 }
 .vЛого {
   width: 452px;
@@ -158,17 +143,17 @@ body {
   opacity: 1;
   text-align: left;
 }
-.vОСайте {
-  width: 145px;
+.vОСайте2 {
+  width: auto;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 40px;
-  left: 1525px;
+  bottom: 38px;
+  right: 268.5px;
   font-family: TharLon;
   font-weight: Regular;
   font-size: 36px;
   opacity: 1;
-  text-align: left;
+  text-align: right;
 }
 .vНавигация {
   width: 250px;
@@ -183,7 +168,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v2075_179 {
+.vНавигацияЛиния {
   width: 280px;
   height: 189px;
   background: #4e2a2ab7;
@@ -207,7 +192,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v2075_181 {
+.vЛичныйКабинет {
   width: 242px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -219,7 +204,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v2075_182 {
+.vНоваяРабота {
   width: 198px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -248,7 +233,7 @@ a {
   opacity: 1;
   text-align: left;
 }
-.v2075_183 {
+.vВыйти {
   width: 95px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -281,13 +266,13 @@ a {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 70px;
+  top: 190px;
   left: 220px;
 }
 .v2075_256 {
   width: 11px;
   height: 17px;
-  background: rgb(255, 255, 255);
+  background: rgb(136, 136, 136);
   opacity: 1;
   position: absolute;
   top: 3px;
@@ -306,4 +291,70 @@ a {
   opacity: 1;
   text-align: left;
 }
+@media (max-width: 768px) {
+  .v©GradeWise {
+    font-size: 11px; /*   размер шрифта  */
+    right: 20px; /*   элемент ближе к краю  */
+  }
+  .vОСайте {
+    font-size: 11px;
+     bottom: 0px;/*  Уменьшаем размер шрифта  */
+  }
 
+  .vКонтакты {
+    font-size: 11px; /*   размер шрифта  */
+  }
+  .vТелефон {
+    font-size: 10px; /*   размер шрифта  */
+    left: 20px;
+    bottom: 0px;
+  }
+  .vПочта {
+    font-size: 10px; /*   размер шрифта  */
+    left: 20px;/*   элемент вниз  */
+  }
+  .vПодвал {
+  padding: 10px;
+  }
+  .vРегистрация {
+  font-size: 25px;
+  right: 20px;
+  }
+.vВход {
+  font-size: 25px;
+  right: 20px;
+}
+}
+@media (max-width: 480px) {
+  .v©GradeWise {
+    font-size: 7px; /*   размер шрифта  */
+    right: 20px; /*  элемент ближе к краю  */
+  }
+  .vОСайте {
+    font-size: 8px;
+     bottom: 0px;/*  размер шрифта  */
+  }
+  .vКонтакты {
+    font-size: 8px; /*  Уразмер шрифта  */
+  }
+  .vТелефон {
+    font-size: 7px; /*   размер шрифта  */
+    left: 20px;
+    bottom: 0px;
+  }
+  .vПочта {
+    font-size: 7px; /* размер шрифта  */
+    left: 20px;/*  элемент вниз  */
+  }
+  .vПодвал {
+  padding: 10px;
+  }
+  .vРегистрация {
+  font-size: 15px;
+  right: 20px;
+  }
+.vВход {
+  font-size: 15px;
+  right: 20px;
+}
+}
