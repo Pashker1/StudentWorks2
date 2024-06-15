@@ -336,7 +336,7 @@ a {
   }
   .vОСайте2{
   font-size: 20px;
-  right: 125px;
+  right: 110px;
   top: 25px;
   }
   .vШапкаЛиния {
@@ -347,6 +347,9 @@ a {
   height: 120px;
   background: #4e2a2ab7;
   opacity: .8;}
+  .vНавигация {
+  top: 80px;
+}
 }
 @media (max-width: 480px) {
   .v©GradeWise {
