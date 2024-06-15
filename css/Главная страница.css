@@ -314,12 +314,12 @@ a {
   }
   .vТелефон {
     font-size: 10px; /*   размер шрифта  */
-    left: 20px;
+    left: 17px;
     bottom: 0px;
   }
   .vПочта {
     font-size: 10px; /*   размер шрифта  */
-    left: 20px;/*   элемент вниз  */
+    left: 17px;/*   элемент вниз  */
   }
   .vПодвал {
   padding: 10px;
