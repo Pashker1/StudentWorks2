@@ -218,6 +218,7 @@ a {
   }
   .vПодвал {
   padding: 60px;
+  height: 40px;
   }
   .vРегистрация {
   font-size: 25px;
@@ -228,7 +229,7 @@ a {
   right: 20px;
 }
 }
-@media (max-width: 488px) {
+@media (max-width: 480px) {
   .v©GradeWise {
     font-size: 7px; /*  Уменьшаем размер шрифта  */
     right: 20px; /*  Сдвигаем элемент ближе к краю  */
