@@ -372,6 +372,9 @@ a {
     left: 55px; /* Изменяем позицию для мобильных устройств */
     font-size: 15px;
     }
+    .v2075_255 {
+    left: 50px;
+    }
     }
 @media (max-width: 480px) {
   .v©GradeWise {
